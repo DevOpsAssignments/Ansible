@@ -10,8 +10,4 @@ ADHOC commands
    ansible server -a 'df -h'
 
 4) How Do I Copy Files Recursively Onto A Target Host? Print the defined environment variables from target host.
-
-5) What is the command to see Inventory Vars Defined For My Host?
-
-6) Can you create a custom role and how to use it in a playbook, Explain with sample code.
- 
+   ansible server -m synchronize -a "src=/home/jaikar/assignment dest=/home/jaikar/webfolder mode=pull" 

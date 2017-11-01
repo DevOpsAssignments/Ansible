@@ -5,6 +5,7 @@ ADHOC commands
 
 2) Stop and start the services 
    ansible server -m service -a "name=httpd state=started"
+   ansible server -m service -a "name=httpd state=stopped"
 
 3) check the disk spaces.
    ansible server -a 'df -h'
